@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e;
+  }
+  
+  h1 {
+    font-weight: 600;
+  }
+  
+  h2 {
+    color: #e91e63;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wish-item {
+    background: #1e1e1e;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .wish-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .wish-item img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+  }
+  li {
+    text-decoration: none;
+  }
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #e91e63
+}
+.city{
+  text-align: center;
+}
+.lolo{
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+.mrkgrshtraklar {
+  width: 450px;
+  height: 200px;
+}
